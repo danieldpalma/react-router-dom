@@ -30,3 +30,8 @@ Utilizando a tag `path` para indicar qual será o caminho da URL.
 
 Utilizando a tag `element` para indicar qual elemento será renderizador ao acessar esse caminho.
 
+## Link
+
+Permite criar uma referencia a alguma rota utilizando a tag `to`
+
+obs: Diferença entre `<Link to/>` e `<a href/>` quando utilizado a tag `<a>` a página é toda recarregada, enquanto com `<Link>` ela é apenas renderizada para a rota definida no `to`.
