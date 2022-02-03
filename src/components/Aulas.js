@@ -4,8 +4,6 @@ import { Link } from "react-router-dom";
 import Data from "../Data";
 
 export default function Aulas(props) {
-  // const match = useRouteMatch()
-
   return (
     <div className="page">
       <h1>Aulas</h1>
